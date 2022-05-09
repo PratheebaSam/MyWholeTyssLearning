@@ -1,0 +1,175 @@
+	
+Concrete class
+	#it has only the concrete methods in it.
+	#it doesnt contain any abstract class in it.
+	
+Concrete method
+	#static and instance
+	
+Abstract
+	#method which have only declaration but there is no body is called abstract.
+	#the problem is @ if we want to declare the abstract method ,we have to declare the class as abstract.
+	#it is just like a normal class but cant create a object of abstract class 
+	#why means if we create a object for abstract class the jvm gets ambiguity to avoid this the jvm dont allow to create an object for the abstract class.
+	#it allows to create a constructor in that abstract class to initialise the instance variables present in it.
+	#it allows both concrete and abstract class.
+	# we are achieving the loose coupling by using abstract method.
+
+	
+	
+	 abstract public void m();
+	abstract A{
+	 int x;
+	 static int y;
+	 //why we creating constructor is to initialize the variables present in the abstract class.
+	 A(){
+	 }
+	 }
+	 
+	 public B extents A{
+	 //instead of making classB as an Abstract we override the method present in the abstract class to avoid the error.
+	 void m(){
+	 }
+	 }
+	 
+	 
+Abstraction 
+	# is the process of hiding implementation and showing only the functionoality.
+	
+java structure->4
+	#class
+	#interface
+	#enum
+	#annotation->example =>@
+	
+Interface
+	#def->interface is a class type def which has only abstract method
+	
+	# to acheive full abstraction we use interface
+	#only abstract method is allowed
+	#constructor is not allowed
+	#object creation is not allowed
+	#interface inheritance doesnt allow toinherit the class because the methods which are present in class is both abstract and concrete.interface doesnt allow the concrete method.
+	#upcasting and downcasting is allowed in interface
+	
+	
+when we go for interface and abstract	
+	anstract->which methods are both common and not common.
+	interface->which methods are common.
+	
+instanceof
+	$$$$$$$$$$$$$$$$doubt..........................	
+	checks the objects which is present in the class or not.
+extends
+	used to inherit same structure
+	
+implements
+	used to inherit diff structure
+	
+final
+	#when we use with variables it doesnot allow us to reinitialize.
+	#if we declare it as instance variable it force us to intialize where we declare.
+	#when we use with method it doesnt allowed overriding.
+	#when we use with class it doesnt allowed to inherit.
+	#we cant use final in abstract method because the final method doesnt allowed to override but the abstract should override when it execute.
+	#interface has the key final by default.$$$$$$$$$$$$$$doubt..................
+	
+static variable
+	one copy per class
+instance variable
+	one copy per ref
+	
+	
+Access specifier
+	# public ->public int x=10; =>everywhere
+	# protected ->protected int y=20; =>access the variable by having a relation with the class.cant access out of the project
+	# default -> int a=30; =>access only within the same package.
+	# private ->private z=40; =>access only within the same class.by using getters and setters we can access the private
+	
+	# we can access the variables within the class just what we done in normal classes.
+	
+encapsulation
+	# wrapping up of data and its entity in a single ref and we can access by using getter and setter.
+	# advantage
+	 =>data consistency
+	 =>read only appllication
+	 =>write only application
+	# how encapsulation is secured.it is achieved by using datahidding(using private key we hide the data).
+
+
+cntrl+shift+e => methods from default object class
+	# by default in java all the classes inherit the objact class.
+	# System.gc(); => to access the garbage collection.$$$$$$$$$$$$$$$$4doubt...........................
+	
+methods present in default object class	
+	# getclass()
+	# hashcode()
+	# equals(Object)
+
+destructor //by divya
+	# delete the 
+	# has spcl methods
+	# does not allow arguement
+	# reallocate or release the memory when object is no longer in use.
+	# when the threat completes the task the objact life time also gets over.the garbage collection recover the memory space which is created by the constructor when it creates the object.
+	# cant explicitly cant create destructor
+	# cant overloaded because we cant send arguements to the destructor.memory of an object
+	
+sql //by Abi
+	# stantard query language
+	# is a language to intract with the database
+	# rdbms
+	# ddl ->to create or modify  a structure  ===>data definition lang
+	 =>create
+	 =>alter
+	 =>drop
+	 =>rename
+	 =>truncate->to delete the data only
+	# dml->to give value to database  ===>data manipulating language
+	 =>insert
+	 =>delete
+	 =>update
+	 =>modify
+	# dcl ->to control the data   
+	 =>grant
+	 =>revoke
+	# tcl ->transaction control language
+	 =>commit
+	 =>rollback
+	 =>savepoint
+	# dql ->data query language
+	 =>select
+		
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

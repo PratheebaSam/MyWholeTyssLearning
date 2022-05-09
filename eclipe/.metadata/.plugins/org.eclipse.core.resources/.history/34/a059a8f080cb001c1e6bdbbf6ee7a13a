@@ -1,0 +1,17 @@
+package com.tyss.employee;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class Employee_Info {
+	@Id
+	private int Employee_ID;
+	@Column (nullable=true)
+	private String Employee_Name;
+	private String Employee_Type;
+	private String Email;
+	private String password;
+	
+}

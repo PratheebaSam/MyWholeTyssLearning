@@ -1,0 +1,61 @@
+body {
+  background-color: #c700ff;
+}
+h1.heading {
+  text-align: center;
+  /* it for the shadow of the color the first 20px gives the shadow of left end ,next for center third for right end fourth is for color */
+  box-shadow: 20px 0px 20px red;
+  /* it blend the edges */
+  border-radius: 50%;
+  width: 300px;
+  margin-left: 480px;
+  padding: 10px;
+}
+nav.titlebar {
+  background-color: black;
+  padding: 0px;
+  position: sticky;
+  top: 0px;
+}
+a.title {
+  /* used for the text decoration */
+  text-decoration: none;
+  color: white;
+  margin: 55px;
+}
+h2.subhead {
+  text-align: center;
+  box-shadow: 20px 0px 20px red;
+  border-radius: 50%;
+  width: 129px;
+  margin-left: 564px;
+  padding: 10px;
+}
+h2:hover {
+  color: rgb(236, 5, 146);
+  background-color: darkviolet;
+}
+img#homeimage {
+  border-radius: 70%;
+  width: 400px;
+  height: 400px;
+  margin-left: 61px;
+  margin-top: 100px;
+}
+p {
+  box-shadow: 0px 0px 30px cadetblue;
+  border-radius: 70%;
+  width: 400px;
+  height: 300px;
+  margin-left: 610px;
+  margin-top: -361px;
+  font-size: 20px;
+  background-color: rgb(195, 157, 250);
+  text-align: justify;
+  padding: 80px;
+}
+footer {
+  margin-top: 180px;
+  text-align: center;
+  background-color: darkviolet;
+}

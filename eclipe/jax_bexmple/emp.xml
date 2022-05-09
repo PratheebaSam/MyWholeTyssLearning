@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<employee emp_id="1">
+    <designation>mama</designation>
+    <name>senthil</name>
+    <salary>2000.0</salary>
+</employee>

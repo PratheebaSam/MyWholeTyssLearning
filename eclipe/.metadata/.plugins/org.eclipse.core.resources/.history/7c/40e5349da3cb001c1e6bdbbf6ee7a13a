@@ -1,0 +1,26 @@
+package com.tyss.employee;
+
+import java.util.Scanner;
+
+public class Manager {
+	public void manager(Scanner sc) {
+		int y;
+		do {
+		System.out.println("Enter the option \n 1.Show all leave request \n 2.Approve/Reject leave request");
+		int x=sc.nextInt();
+		switch (x) {
+		case 1:	
+			System.out.println("all leave request is here");
+			break;
+		case 2:
+			System.out.println("Approve/Reject leave request");
+			break;
+		default:
+			System.out.println("enter the correct value");
+			break;
+		}
+		System.out.println("if you want to continue press 1");
+		y=sc.nextInt();
+		}while(y==1);
+	}
+}		

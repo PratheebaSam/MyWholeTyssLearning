@@ -1,0 +1,9 @@
+servlet
+
+
+@dispatch
+forward
+	#server intract with the other server and that server sends the res 
+include 
+	#server intracts with the other server and that server sends the res to the server which server called this server
+	

@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+/home/onebill/Documents/prathi/eclipe/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+979654463.index
+1573996619.index
+1308063258.index
+330030093.index
+3262238334.index
+3156793233.index
+2553378869.index

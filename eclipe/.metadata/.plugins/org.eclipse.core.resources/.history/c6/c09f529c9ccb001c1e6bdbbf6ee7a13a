@@ -1,0 +1,10 @@
+package com.tyss.employee;
+
+import java.util.Scanner;
+
+public class Manager {
+	private void manager(Scanner sc) {
+		System.out.println("Enter the option \n 1.Show all leave request \n 2.Approve/Reject leave request");
+
+	}
+}

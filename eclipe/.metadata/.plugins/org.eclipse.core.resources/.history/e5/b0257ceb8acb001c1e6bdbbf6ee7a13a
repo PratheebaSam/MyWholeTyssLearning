@@ -1,0 +1,29 @@
+package com.tyss.employee;
+
+import java.util.Scanner;
+public class App 
+{
+    public static void main( String[] args )
+    {
+       Scanner scanner = new Scanner(System.in);
+       System.out.println("Enter the option /n 1.Register /n 2.login");
+       int x=scanner.nextInt();
+       switch(x) {
+       case 1:
+       {
+    	 System.out.println("Register"); 
+    	 break;
+       }
+       case 2:
+       {
+    	   System.out.println("Login");
+    	   break;
+       }
+       case 3:
+       {
+    	   sysout
+       }
+       }
+      
+    }
+}

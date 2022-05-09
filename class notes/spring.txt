@@ -1,0 +1,94 @@
+spring 
+	#is a framework of framework
+	#used for minimizing the amount of code
+	#it has diff modules in spring
+		@spring core 
+		@spring MVC used for monolithic application -->both backend and frontend in single 
+		@spring rest-->restful applications -->the code is present in one server and the others who wnats to access can access by making req to the code and rewrite the front code to make changes. the server which has the code will send the res as a dataform.
+		@spring Aop
+		@security
+		
+Spring core
+	# for loose coupling
+	# maintanenece of object is easy(life cycle of object is maintained)
+	# how it acheive
+		==>IOC(inversion of control)
+		==>dependency injection
+@@dependency-->spring-context,spring context schema location==>docs.spring.io 40.2.8 the context schema for all we use util schema
+
+<bean>->used for represent class here we give fullyqualified name of the class.in bean tag we give the name that is the ref variable for the class of object.
+<property>->used for represent variables
+
+two containers
+	bean factory
+	application context(it has some extra functionality)
+	
+	
+	classpathxmlapplicationcontext is used to create the object for the xml file
+	
+dependency injection
+	#injecting the required object into the dependent class/object
+	
+	=>constructor injection
+		
+	=>setter injection
+		using property tag we can achieve this
+		
+		
+		
+@configuration->config file
+@bean->for denote bean for methods
+@autowired-> used for autowire the dependency
+@component->used for creating bean of the class
+@componentScan(basepackage={"com.tyss.****"})->it says to scan the class for the component
+@primary-> if we have more than one bean class in the same type means to give a priority we use
+@qualifier->it have more priority than the primary
+	->we have to use qualifier in both variable and the class  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	

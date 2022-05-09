@@ -1,0 +1,59 @@
+wrapper class
+	# nonpremitive version of the premitive datatype then it is called wrapper class.
+	# in java we are detealing with the objects ,primitve datatype is not a class so wrapper class is the object for premitive datatype.
+	# object class is the supermost class in java.
+	# Object[]; using this we are able to store the different values like integer ,etc but it is always homogenious how it is in object array we are storing the datas int,etc in the form of object.
+	
+framework
+	# combination of classes and interface 
+	
+collection
+	# it helps to store group of elements
+	# it is an interface
+	# it is framework because it has more intereface and class
+	# it has some sub interface
+	 * depends on the req they split the hierarchy in threee types.
+	 =>list  $$also an interface
+	 	-->store duplicate elements
+	 	-->it maintains the insertion order
+	 		+++++vector ->legacy class ==> legacy from the begining.
+	 			-->synchronized multitasking doesnot allowed
+	 			-->internaly they are using array if we want to manipulate the array that is the disadvantage in vector.	 			
+	 		+++++arraylist
+	 			-->notsynchronized
+	 		+++++linkedlist ==>doubly linkedlist.
+	 			-->they storing the data in the form of node.
+	 		+++++stack
+	 			-->last in first out
+	 =>queue 
+	 	-->
+	 =>set	
+	 	-->doesnt allow to store duplicate elements.
+	 	-->doent maintain insertion order then the output is unpredictable.
+	
+	
+intial capacity of array =10
+	capacity=((initial capacity *3)/2)+1;
+	
+generics
+	# generics are used to restrict the container.
+	
+next method give the value of next value
+
+hasnext method gives if next value present or not
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

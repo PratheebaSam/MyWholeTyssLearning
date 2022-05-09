@@ -1,0 +1,13 @@
+package com.tyss.employeeinfo;
+
+import java.sql.Connection;
+import java.util.Scanner;
+
+public class Login {
+	public void login(Scanner scanner,Connection connection) {
+		System.out.println("Enter your employee id");
+		int id=scanner.nextInt();
+		System.out.println("Enter your password");
+		String password=scanner.next();
+	}
+}

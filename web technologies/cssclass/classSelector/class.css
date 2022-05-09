@@ -1,0 +1,15 @@
+body {
+  background-color: violet;
+}
+p.first {
+  color: rgb(224, 64, 64);
+}
+p.second {
+  color: rgb(255, 0, 242);
+}
+.third {
+  color: rgb(0, 38, 255);
+}
+.fourth {
+  color: rgb(0, 255, 106);
+}

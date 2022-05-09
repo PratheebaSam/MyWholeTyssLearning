@@ -1,0 +1,43 @@
+servlet
+	used to intract with server
+	it is an interface
+	implemented by generic servlet class it override the five methods present in the servlet
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	server is an application and java ia also an application for communication we want to communicate by using api that api is servlet
+	servlet is an api which is used to communicate with java
+	in server there is a container which holds the metadata of the java program as a web.xml
+	
+	dep-->javax servletapi
+Servlet Api
+	init->for intialization and  instantiation of the servlet
+	config->it called before the service method
+	service->important method **it has 2 objects they are req,res
+	destroy->
+	context->common for every servlet and we can delete it when we dont want it	
+	
+	servlet@@@interface@@parent interface
+	
+	generic servlet@@@abstract method
+	
+	httpservlet@@@absract method
+	
+	
+	
+	
+generic servlet
+	used to handle any kind of req
+	dis-->it displays all the input wwhich is given by us is always goes in url
+	service method is not specified here the disad is if we want t update the things.if the things present then it update if it is not it insert the things but we want to update the things only this is overcomed by the http servlet
+	 
+	
+	
+http servlet
+	it handles only http type req
+	service specific method
+		get 
+		post
+		put
+		fetch
+
+	
+	

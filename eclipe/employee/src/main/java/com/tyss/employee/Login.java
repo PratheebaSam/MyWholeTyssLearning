@@ -1,0 +1,43 @@
+package com.tyss.employee;
+
+import java.util.Scanner;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+
+import com.mysql.cj.protocol.x.SyncFlushDeflaterOutputStream;
+import com.sun.xml.bind.v2.model.core.ID;
+import com.tyss.database.EmployeeInfo;
+
+public class Login {
+	public void login(Scanner sc) {
+		System.out.println("Enter your Employee Id");
+		int id=sc.nextInt();
+		System.out.println("Enter your password");
+		String password=sc.next();
+		EntityManagerFactory factory = Persistence.createEntityManagerFactory("employee");
+		EntityManager manager = factory.createEntityManager();
+		EntityTransaction transaction = manager.getTransaction();
+		transaction.begin();
+		EmployeeInfo find = manager.find(EmployeeInfo.class,id);
+		System.out.println(find.getPassword());
+		System.out.println(password);
+		if(find.getPassword().compareTo(password)==1) {
+			System.out.println("Password matching");
+		}
+		else {
+			if(find.getEmployeeType().compareTo("manager")==0 || find.getEmployeeType().compareTo("Manager")==0) {
+				System.out.println("Hi manager");
+//				Manager manager2 = new Manager();
+//				manager2.manager(sc);
+			}
+			else {
+				System.out.println("hi guys");
+				Employee employee = new Employee();
+				employee.employee(sc);
+			}
+		}
+	}
+}

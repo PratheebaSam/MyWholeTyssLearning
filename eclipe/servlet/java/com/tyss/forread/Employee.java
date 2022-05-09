@@ -1,0 +1,48 @@
+package com.tyss.forread;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+public class Employee {
+
+	private int id;
+	//for changing name to fullname
+	@JsonProperty(value="fullname")
+	private String name;
+	@JsonIgnore
+	private String designation;
+	public Employee() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Employee(int id, String name, String designation) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.designation = designation;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getDesignation() {
+		return designation;
+	}
+	public void setDesignation(String designation) {
+		this.designation = designation;
+	}
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + ", designation=" + designation + "]";
+	}
+	
+
+}

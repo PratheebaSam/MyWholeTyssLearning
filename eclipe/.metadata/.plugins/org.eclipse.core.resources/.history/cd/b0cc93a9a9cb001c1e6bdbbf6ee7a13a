@@ -1,0 +1,22 @@
+package com.tyss.employee;
+
+import java.util.Scanner;
+
+public class Employee {
+	public void employee(Scanner sc) {
+		int y;
+		do {
+			System.out.println("Enter the option \n 1.show all leave request\n 2.request for a leave");
+			int x=sc.nextInt();
+			switch (x) {
+			case 1:
+				System.out.println("leave request");
+				break;
+
+			default:
+				break;
+			}
+			
+		}while(y==1);
+	}
+}

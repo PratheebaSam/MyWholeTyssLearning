@@ -1,0 +1,60 @@
+ git
+	*git is an distributed version control system.
+
+centralised
+	it have the code in central(remote repository).if the internet is not then we dont use this and we have to sit ideal.To overcome this in git we have to use the distributed in git.
+
+	*it has the code in both central and local repository.changes are made in the local repository then it push the code remote repository.
+	
+	
+	remote repository **Centralized code is present here.it gets updated when the code is pushed by local repository.
+		|
+		|
+	local repository **local repository take the changes when it is added by the staging area
+		|
+		|
+	staging area **saving the directory
+		|
+		|	
+	directory **coding area
+	
+	
+	
+git codes
+
+	git init 
+	git status **@ to check the files in the staging area also in local area
+	git add filename or *.text or . **add the file or changges made in the file is stored in the staging area
+	git commit -m "command"
+	git config --global user.name "Pratheeba" **to give the person name who is doing this change
+	git config --global user.email "sampratheeba@gmail.com" **to give the person mail who is doing the changes
+	git remote add https://github.com/PratheebaSam/javaTrainingByTyss.git **to set the remote path
+	
+	
+upcasting and downcasting
+
+	class A{
+		A a=new B(); //storing an object of subclass in super class ref is upcasting
+	}
+	class B extends A{
+		B b=(B) a; //storing  of superclass ref in subclass ref then it is called as downcasting downcasting.without upcasting we cant downcast it. 
+	}
+	
+	
+	in whatsapp we cant add one number more than one time . in this scenario we use upcasting.in this the super class methods are only accessible.we cant access the subclass methods.
+	
+	in downcasting all methods are accessible.
+
+rules for downcasting
+	before downcasting we have to upcast it and we have to explicitly specify the nonpremitive datatype.
+	
+	the data is given by the object in upcasting is sustained when we downcast it.
+	
+method overriding
+	changing the implementation of method from the super class in sub class then it is called method override.
+	whenever we call the overriden methos is executed
+		
+	
+	
+	
+	

@@ -1,0 +1,18 @@
+package com.tyss.employeeinfo;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.Scanner;
+
+public class Login {
+	public void login(Scanner scanner,Connection connection) throws SQLException {
+		System.out.println("Enter your employee id");
+		int id=scanner.nextInt();
+		System.out.println("Enter your password");
+		String password=scanner.next();
+		PreparedStatement statement = connection.prepareStatement("select * from Employee_Info where Employee_Id==?");
+		statement.setByte(1,(byte) id );
+		
+	}
+}

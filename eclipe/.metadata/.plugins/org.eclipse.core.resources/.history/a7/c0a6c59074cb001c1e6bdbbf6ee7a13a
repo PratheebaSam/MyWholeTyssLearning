@@ -1,0 +1,7 @@
+<html>
+<body>
+	<h3>Press 1 to register employee</h3>
+	<h3>Press 2 to login</h3>
+	<input type="number">
+</body>
+</html>

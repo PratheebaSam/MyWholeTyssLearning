@@ -1,0 +1,40 @@
+Exception 
+  checked exception
+	# IO exception
+	# it force to hande the code when writting the code itself
+	# for developers
+	
+control+n=>for create a file
+
+throws 
+	=> throws the exception to the caller side
+	=> used to indicate the particular method gets exception by caller method perspective
+	=> to propogate the exception to the caller side by called method perspective
+	
+	 
+	
+throw 
+	=> 
+	
+	
+	
+	
+one stack memory is one thread
+
+
+multitasking
+	# at a time performing diff task                           ##core is used for multitasking
+	process based multitasking=>
+	
+a subprocess of a process and thread helps to achieve the multitasking.
+
+	# threads are unpredictable
+	# thread scheduler is the one who decide which thread will be executed first.
+	# priority from 0 to 10.
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,25 @@
+package com.tyss.employeeinfo;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.Scanner;
+
+public class Register {
+	public void register(Scanner sc,Statement statement) throws SQLException {
+		System.out.println("Enter the Employee Id");
+		int id=sc.nextInt();
+		System.out.println("Enter the Employee name");
+		String name=sc.next();
+		System.out.println("Enter the Employee type");
+		String type=sc.next();
+		System.out.println("Enter the Email Id");
+		String email=sc.next();
+		System.out.println("Enter the password");
+		String password=sc.next();
+		ResultSet resultSet = statement.executeQuery("select * from Employee_Info");
+		while(resultSet.next()) {
+			System.out.println(resultSet.getInt("Employee_Id"));
+		}
+	}
+}

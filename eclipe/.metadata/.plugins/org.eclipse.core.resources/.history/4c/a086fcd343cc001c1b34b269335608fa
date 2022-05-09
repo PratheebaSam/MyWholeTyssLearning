@@ -1,0 +1,32 @@
+package com.tyss.employeeinfo;
+
+import java.sql.Connection;
+import java.util.Scanner;
+
+public class Manager {
+	
+	
+	
+	
+	public void manager(Scanner scanner,Connection connection,int employeeid) {
+		int y;
+		do {
+			System.out.println("Enter the option \n\t1.show all leave request\n\t2.Approve/Reject Leave request ");
+			int x=scanner.nextInt();
+			switch (x) {
+			case 1:
+				System.out.println("leave request");
+				break;
+			case 2:
+				System.out.println("approve/reject leave request");
+				break;
+
+			default:
+				System.out.println("Enter the correct option");
+				break;
+			}
+			System.out.println("if you want to conotinue enter 1");
+			y=scanner.nextInt();
+		}while(y==1);
+	}
+}

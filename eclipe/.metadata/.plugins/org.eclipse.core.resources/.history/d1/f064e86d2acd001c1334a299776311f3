@@ -1,0 +1,22 @@
+package com.tyss.basicjava;
+
+import java.util.Scanner;
+
+public class Prime {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int x=scanner.nextInt();
+		int y=x-1;
+		int flag=0;
+		while(y!=1){
+			if(x%y==0) {
+				flag=1;
+			}
+			x--;
+		}
+		if(flag==0) {
+			System.out.println("prime number");
+		}
+		
+	}
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+	<display-name>nmail</display-name>
+	<welcome-file-list>
+
+		<welcome-file>login.jsp</welcome-file>
+
+	</welcome-file-list>
+
+
+	<servlet>
+		<servlet-name>loginverify</servlet-name>
+		<servlet-class>com.te.nmail.Loginverification</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>loginverify</servlet-name>
+		<url-pattern>/loginverification</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>LOGIN</servlet-name>
+		<jsp-file>/login.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LOGIN</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>SIGNUP</servlet-name>
+		<jsp-file>/signup.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SIGNUP</servlet-name>
+		<url-pattern>/signup</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>valid</servlet-name>
+		<servlet-class>com.te.nmail.Verification</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>valid</servlet-name>
+		<url-pattern>/Verification</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>forget</servlet-name>
+		<jsp-file>/forgetpassword.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>forget</servlet-name>
+		<url-pattern>/forgetpassword</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>forgetpassvalidation</servlet-name>
+		<servlet-class>com.te.nmail.Passcodechange</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>forgetpassvalidation</servlet-name>
+		<url-pattern>/passcodechange</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>inbox</servlet-name>
+		<servlet-class>com.te.nmail.Inbox</servlet-class>
+
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>inbox</servlet-name>
+		<url-pattern>/inbox</url-pattern>
+	</servlet-mapping>
+
+</web-app>

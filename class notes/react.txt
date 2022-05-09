@@ -1,0 +1,9 @@
+react
+	# package.json->dependecy and script for the project 
+	# package-lock.json
+	# node modules->contains all the dowloaded dependencies
+	# index.html->the only html file 
+		react is a single page application->view might change dynamically but the page does'nt reload.
+		div tag->there is one div tag in the index.html which is responsible for creating the ui in react application.
+	# src ->development
+		index.js->

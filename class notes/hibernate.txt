@@ -1,0 +1,6 @@
+jdbc 
+	is an interface used to intract with the database.
+	is also an protocol
+	
+	
+

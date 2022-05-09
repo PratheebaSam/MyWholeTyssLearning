@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+	<bean class="com.tyss.springcore.BoyFriend" name="bf">
+		<property name="name">
+			<value>Chakaravarthi</value>
+		</property>
+		<property name="phoneNumber">
+			<value>9344045340</value>
+		</property>
+		<property name="instaId">
+			<value>ok_chiti</value>
+		</property>
+		<property name="bestQuality">
+			<value>Caring</value>
+		</property>
+	</bean>
+
+</beans>

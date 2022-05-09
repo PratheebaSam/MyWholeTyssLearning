@@ -1,0 +1,143 @@
+html
+	hyper->links
+	text ->text
+	markup ->tags
+	language->to communicate
+	# markup language because by using this we cant create an whole application thats y it does call it is programing languaue.
+	# it gives the structure to the page 
+	# it is browser understandable language
+	# tim berners-lee --father of html
+	# tag is a keyword which is enclosed with an angular brace ->it is an attribute
+		why for styling
+		ex:<html>,<head>
+		types of tag
+		-->pair tag
+			@
+		-->unpaired tag 
+			@<hr>,<image>,<break>-->only opening tag no closing tag is there.
+	# it is not a case sensitive
+	# save with the extension of .html
+	# <!Doctype> ->it gives the version of the html 
+	#<html>
+	# <head>->contains the metatag,contains the info about the web page,either we give the links in head or in body.
+		it is not visible in the browser
+	# <body>->the things present here is visible in the browser.
+	# static 
+	
+extension
+=========	
+#live server -->it is like a nodemon instead of refreshing every time it helps to change automatically
+#prettier --> is used to format the code what we written
+	go to settings --search format--default formatter--make it prettier--turn on format on save
+
+#go to the file path open the terminal and write @code .@ opens the vs code
+
+#shift1-->!-->it gives the structure of the html
+#control space--> it gives the attriutes
+
+##inside the p tag if we give lorem then it gives the random words 
+
+
+basic tags
+	# self explanatory tags -semantic tags
+		ex:
+		<p>->paragraph
+		<br>=>break
+		<h1>->heading tag
+	
+tag
+	# <pre>-->
+
+text formatting tag
+	the tags used to format the text is caled format tag
+	@<b>-->bold
+	@<strong>-->same as bold makes the text darker
+	@<i>-->for italic
+	@<big> it is depricated tag 
+		what is depricated means at anypoint they may remove this tag
+	@<small>
+	@<u>-->underline
+	
+we can give the text without any tag also.
+
+container tag
+	@div
+	
+	
+	
+attribute 
+	it is an property of the tag in html 
+	basic attributes are
+		class 
+		id 
+		style
+		title
+			
+block level tag
+	it takes the entire width of the browser
+	@h1,div,p
+inline tag
+	it takes the width of the contents what we written inside the tag
+	@b,i,strong,span
+	
+list 4types
+	ol
+	ul
+	nested list
+	definition list
+	
+list tag
+	ordered list<ol>
+		1)....
+		2)....
+		.....
+	unordered list<ul>
+		>...
+		>...
+		....
+short cut to get multiple things 	
+	li*3
+	div*8
+
+
+anchor tag<a>
+	used to link with url
+	
+table tag--> used to write the text in the form of table
+	thead-->to specify the table head
+	th-->name of the table head
+	tbody-->data of the table
+	tr-->this fo mention the row
+	td-->to pass the data
+	
+	rowspan is used to merge the rows
+	colspan is used to merge the column
+	
+	
+	
+form ->to collect the datas from the user	
+	<form>->to create the from
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	

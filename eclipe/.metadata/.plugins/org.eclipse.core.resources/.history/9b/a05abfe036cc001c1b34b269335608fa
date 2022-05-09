@@ -1,0 +1,10 @@
+package com.tyss.employeeinfo;
+
+import java.sql.Connection;
+import java.util.Scanner;
+
+public class Employee {
+	public void employeeLeave(Scanner scanner,Connection connection) {
+		System.out.println("Enter the option \n 1.show all leave request\n 2.create new leave request");
+	}
+}

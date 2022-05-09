@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:util="http://www.springframework.org/schema/util" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd"> 
+        
+  	<bean class="com.tyss.springautowire.BoyFriend" name="bf" autowire="byName">
+  	<constructor-arg value="Naveen"/>
+  	<constructor-arg value="098687776"/>
+  	<constructor-arg value="naveen_sharon"/>
+  	<constructor-arg value="handball"/>    	
+  	</bean>  
+  	
+  	<bean class="com.tyss.springautowire.BoyFriend" name="bf1" autowire="byName">
+  	<constructor-arg value="Bboopesh"/>
+  	<constructor-arg value="86665631"/>
+  	<constructor-arg value="boopesh-snake"/>
+  	<constructor-arg value="Tennis"/>  	
+  	</bean>
+  	
+  	<bean class="com.tyss.springautowire.GirlFriend" name="girlFriend">
+  	<constructor-arg value="sharon"/>
+  	<constructor-arg value="98721567"/>
+  	<constructor-arg value="sharon_naveen"/>
+  	<constructor-arg value="Communiction"/>	
+  	</bean>
+  	
+  	<bean class="com.tyss.springautowire.GirlFriend" name="gf2">
+  	<constructor-arg value="snake"/>
+  	<constructor-arg value="92746232"/>
+  	<constructor-arg value="snake_boopesh"/>
+  	<constructor-arg value="Kho-kho"/>
+  	</bean>
+  	
+  	    
+        
+        
+        
+        
+        
+        
+        
+</beans>

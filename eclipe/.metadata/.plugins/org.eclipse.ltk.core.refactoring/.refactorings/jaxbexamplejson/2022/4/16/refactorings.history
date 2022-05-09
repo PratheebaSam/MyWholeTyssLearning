@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;jaxbexamplejson/src/main/java/com.tyss.forread&apos;&#x0A;- Original project: &apos;jaxbexamplejson&apos;&#x0A;- Destination element: &apos;jaxbexamplejson/src/main/java/com.tyss.forread&apos;&#x0A;- Original elements:&#x0A;     com.tyss.jaxbexamplejson.App.java&#x0A;     com.tyss.jaxbexamplejson.Employee.java" description="Copy compilation units" destination="/src\/main\/java&lt;com.tyss.forread" element1="/src\/main\/java&lt;com.tyss.jaxbexamplejson{App.java" element2="/src\/main\/java&lt;com.tyss.jaxbexamplejson{Employee.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1649836038747" units="2" version="1.0"/>
+</session>

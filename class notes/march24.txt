@@ -1,0 +1,101 @@
+static method
+	# we cant override
+	# we can inherit                            #@string basically immutable
+						     #@
+	
+final
+	# 
+	
+polymorphism
+	# a method having same name with diff
+	runtime polymorphism->method overriding
+	compile polymorphism->method overloading	
+	
+array
+	# ways of declaring array
+	 =>int[] a;
+	 	a=new int[4];  //we use when the values are not known
+	 =>int[] a={10,20,30,40,50};//deciding the length by giving the variable. we can use this when we know the values.
+	 =>int a[];
+	 
+is a relationship
+	->inheritance
+has a relationship
+	->a class(object) which is dependent on another class(object) then we that ha a relationship.
+	
+Exception
+	# exception is an object thrown by jvm during the runtime & which stops flow the program execution.
+	# hierarchy
+		throwable ->stops the execution flow
+			=>exception
+				FileIOException
+				SQLException
+				RuntimeException
+					ArithmeticException
+					ArrayIndexOutOfBound
+					....
+					....
+				.....
+				.....
+			=>Error (is a class diff from our error)
+				StackOverflowError
+				
+	# 2 types
+		checked exception
+			-> which are known by the compiler.
+		unchecked exception
+			->compile doesnot know the exception
+			->all the runtime exception inherits this.
+			->for users
+		
+	
+	
+static block
+	# loads before the constructor load
+	# it loads in the class loader
+	# using static variable we create a static block
+	# we can access only the static variable
+	
+	
+	int x=10;
+	static int y=20;
+	static {
+		system.out.println(y);
+	}
+	
+nonstatic block
+	# loads whenever we create an object.
+	# it loads before the constructor.
+	# we can access both the static and instance variable but not the local variable.
+	
+	int x=10;
+	static int y=20;
+	{
+		system.out.println(x);
+		system.out.println(y);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

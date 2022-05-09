@@ -1,0 +1,26 @@
+create a new repository on the command line
+
+
+echo "# javaTrainingByTyss" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/PratheebaSam/javaTrainingByTyss.git
+git push -u origin main
+
+
+
+push an existing repository from the command line
+
+git remote add origin https://github.com/PratheebaSam/javaTrainingByTyss.git
+git branch -M main
+git push -u origin main
+
+
+git tokens
+
+	TOKEN FOR JAVALEARNINGREPOSITORY
+	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
+	
+	git push  https://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@github.com/PratheebaSam/FinalAssessmentByTyss.git

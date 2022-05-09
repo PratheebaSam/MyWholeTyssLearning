@@ -1,0 +1,10 @@
+package com.tyss.employeeinfo;
+
+import java.sql.Connection;
+import java.util.Scanner;
+
+public class Login {
+	public void login(Scanner scanner,Connection connection) {
+		
+	}
+}

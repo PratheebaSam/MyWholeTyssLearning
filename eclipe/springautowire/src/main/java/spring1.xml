@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:util="http://www.springframework.org/schema/util" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd"> 
+	
+	<bean class="com.tyss.springautowire.BoyFriend" name="bf" autowire="byName">
+	<property name="name">
+	<value>Chakaravarthi</value>
+	</property>
+	<property name="phoneNumber">
+	<value>9344045340</value>
+	</property>
+	<property name="instaId">
+	<value>ok_chiti</value>
+	</property>
+	<property name="bestQuality">
+	<value>Caring</value>
+	</property>	
+	<property name="girlFriend" ref="girlFriend"/>
+	</bean>
+	
+	<bean class="com.tyss.springautowire.GirlFriend" name="girlFriend">
+		<!-- <property name="name" value="Pratheeba"></property>
+		<property name="phoneNumber" value="7708848982"></property>
+		<property name="instaId" value="riyarishi00"></property>
+		<property name="bestQuality" value="active"></property>
+		 -->
+		 <constructor-arg value="Pratheeba"></constructor-arg>
+		 <constructor-arg value="7708848982"></constructor-arg>
+		 <constructor-arg value="riyarishi00"></constructor-arg>
+		 <constructor-arg value="active"></constructor-arg>
+	</bean>
+	
+</beans>

@@ -1,0 +1,11 @@
+Restful 
+	rest->representational state transfer
+	
+jax-b
+	is an interface.
+	used to convert the java objects to the xml/json and vice versa.
+	the implementation for this api is given by the jax-b implementation
+	to support the jax-b implementation jax-core is used
+	why we have to learn jax -b?=>to achieve restful application
+	
+	

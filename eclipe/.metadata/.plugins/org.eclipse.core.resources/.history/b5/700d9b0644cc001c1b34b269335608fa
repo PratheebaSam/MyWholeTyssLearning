@@ -1,0 +1,47 @@
+package com.tyss.employeeinfo;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.util.Scanner;
+
+public class Manager {
+	private void showAllRequest(Scanner scanner,Connection connection) throws Exception {
+		Statement statement = connection.createStatement();
+		ResultSet resultSet = statement.executeQuery("select * from Leave_Info");
+		int employeeId;
+		String leaveDate=null;
+		String leaveStatus=null;
+		while(resultSet.next()) {
+			employeeId=resultSet.getInt("Employee_Id");
+			leaveDate=resultSet.getString("Leave_Date");
+			leaveStatus=resultSet.getString("Leave_Status");
+			System.out.println(" Employee_Id:"+employeeId+"\n Leave_Date:"+leaveDate+"\n Leave status:"+leaveStatus);
+			
+		}
+	}
+	
+	
+	
+	public void manager(Scanner scanner,Connection connection,int employeeid) {
+		int y;
+		do {
+			System.out.println("Enter the option \n\t1.show all leave request\n\t2.Approve/Reject Leave request ");
+			int x=scanner.nextInt();
+			switch (x) {
+			case 1:
+				System.out.println("leave request");
+				break;
+			case 2:
+				System.out.println("approve/reject leave request");
+				break;
+
+			default:
+				System.out.println("Enter the correct option");
+				break;
+			}
+			System.out.println("if you want to conotinue enter 1");
+			y=scanner.nextInt();
+		}while(y==1);
+	}
+}

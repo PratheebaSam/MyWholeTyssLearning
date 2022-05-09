@@ -1,0 +1,75 @@
+package com.tyss.setcollection;
+
+public class Employee {
+	int employeeId;
+	String employeeName;
+	String employeeDesignation;
+	public Employee() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Employee(int employeeId, String employeeName, String employeeDesignation) {
+		super();
+		this.employeeId = employeeId;
+		this.employeeName = employeeName;
+		this.employeeDesignation = employeeDesignation;
+	}
+	public int getEmployeeId() {
+		return employeeId;
+	}
+	public void setEmployeeId(int employeeId) {
+		this.employeeId = employeeId;
+	}
+	public String getEmployeeName() {
+		return employeeName;
+	}
+	public void setEmployeeName(String employeeName) {
+		this.employeeName = employeeName;
+	}
+	public String getEmployeeDesignation() {
+		return employeeDesignation;
+	}
+	public void setEmployeeDesignation(String employeeDesignation) {
+		this.employeeDesignation = employeeDesignation;
+	}
+	@Override
+	public String toString() {
+		return "Employee [employeeId=" + employeeId + ", employeeName=" + employeeName + ", employeeDesignation="
+				+ employeeDesignation + "]";
+	}
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((employeeDesignation == null) ? 0 : employeeDesignation.hashCode());
+		result = prime * result + employeeId;
+		result = prime * result + ((employeeName == null) ? 0 : employeeName.hashCode());
+		return result;
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Employee other = (Employee) obj;
+		if (employeeDesignation == null) {
+			if (other.employeeDesignation != null)
+				return false;
+		} else if (!employeeDesignation.equals(other.employeeDesignation))
+			return false;
+		if (employeeId != other.employeeId)
+			return false;
+		if (employeeName == null) {
+			if (other.employeeName != null)
+				return false;
+		} else if (!employeeName.equals(other.employeeName))
+			return false;
+		return true;
+	}
+	
+	
+	
+}

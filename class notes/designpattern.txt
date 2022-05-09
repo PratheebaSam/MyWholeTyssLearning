@@ -1,0 +1,27 @@
+design pattern
+	#a proven solution for existing problem
+
+  singletern class
+  	#allows to create an object
+  Factory Design pattern
+  	#helps to achieve loose coupling
+  		example:emp details
+  			id
+  			name
+  			phone no
+  			salary
+  			mailid
+  			designation
+  			address -->sep table
+  			experience -->sep table
+  			skills -->sep table
+  			dob
+  			age
+  			date of joining
+  			gender
+  			nationality
+  			bank details -->sep table
+  			government id proof -->sep table
+  			education -->sep table
+  			
+  	

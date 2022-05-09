@@ -1,0 +1,40 @@
+css father->hakon wium lie
+	==>is used to style the webpage.
+
+diff bw css and html
+	css-css in mainly used for presentation and design
+	html-is for content and web page structure and it is the building block of web page
+	
+three ways to add css
+	1)inline -->styling in a line 
+		this is more prier when compared to the internal
+	2)internal -->style using head part
+	3)external
+	
+css selectors
+	element seector
+		-->all tags are html elements
+		-->using tag name
+	universal selector
+		-->* is the symbol for universal selector
+		-->if you want to stytle all the elements present in the html then universal selector is used
+	attribute selector
+		-->select based on the attribute present in the tag
+	class selector
+	id selector
+	pseudo classes
+		-->for changing the links color
+	
+funtionality for both class and id it is only for the dev understanding
+	class is used for multiple tag styling
+	id is used for unique styling
+	
+
+background css property
+	background image
+
+
+
+
+
+

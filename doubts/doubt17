@@ -1,0 +1,64 @@
+keywords
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+Class
+how much is the memory allocated for a class when we declare
+
+-----------------------------------------------------------------------------------
+ENUM 
+
+
+    Enum improves type safety
+    Enum can be easily used in switch
+    Enum can be traversed
+    Enum can have fields, constructors and methods
+    Enum may implement many interfaces but cannot extend any class because it internally extends Enum class
+
+
+we have to write keyword in lower case, in constructor enum is like Enum.what is the diff between two and how we can use this.
+
+--------------------------------------------------------------------------------------
+
+instance of
+
+--------------------------------------------------------------------------------------
+
+native
+
+--------------------------------------------------------------------------------------
+
+how the static keyword used in memory management
+
+---------------------------------------------------------------------------------------
+
+what is the diff between throw and throws and how it functions
+
+---------------------------------------------------------------------------------------
+
+
+what is serialization and what is the connection between the transient and serialization
+
+-----------------------------------------------------------------------------------------
+
+super*****
+ always refers the super class object
+----------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+after inheritance =>how the static variable used
+
+
+

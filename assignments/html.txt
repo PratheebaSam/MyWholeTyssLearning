@@ -1,0 +1,15 @@
+1.versions of html and the changes in the html 
+2.what are list and type of list
+3.default type for ol and ul.
+4.nested list and definition list
+5.
+
+
+
+
+css date 20
+	list background property
+	list border property
+	list display properties
+	list text property
+	

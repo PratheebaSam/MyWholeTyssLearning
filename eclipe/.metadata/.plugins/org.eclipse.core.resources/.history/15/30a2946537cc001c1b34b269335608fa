@@ -1,0 +1,36 @@
+package com.tyss.employeeinfo;
+
+import java.sql.Connection;
+import java.util.Scanner;
+
+public class Employee {
+	private void showLeaveRequest() {
+		
+	}
+	
+	
+	
+	
+	
+	
+	public void employeeLeave(Scanner scanner,Connection connection,int employeeId) {
+		int y;
+		do {
+			System.out.println("Enter the option \n 1.show all leave request\n 2.create new leave request");
+			int x=scanner.nextInt();
+			switch (x) {
+			case 1:
+				System.out.println("your leave request");
+				break;
+			case 2:
+				System.out.println("you wanted to create new request");
+				break;
+			default:
+				System.out.println("enter the correct option");
+				break;
+			}
+			System.out.println("if you want to continue enter 1");
+			y=scanner.nextInt();			
+		}while(y==1);
+	}
+}
